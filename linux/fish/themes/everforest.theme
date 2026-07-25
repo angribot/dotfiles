@@ -1,0 +1,37 @@
+# name: Everforest Dark Hard
+# url: https://github.com/sainnhe/everforest
+
+fish_color_normal d3c6aa
+fish_color_autosuggestion 7a8478
+fish_color_cancel e67e80 --reverse
+fish_color_command a7c080
+fish_color_builtin a7c080
+fish_color_function a7c080
+fish_color_comment 859289 --italics
+fish_color_cwd a7c080
+fish_color_cwd_root e67e80
+fish_color_end d3c6aa
+fish_color_error e67e80
+fish_color_escape dbbc7f
+fish_color_history_current d3c6aa --bold
+fish_color_host 83c092
+fish_color_host_remote dbbc7f
+fish_color_keyword e67e80
+fish_color_operator e69875
+fish_color_option d3c6aa
+fish_color_param d3c6aa
+fish_color_quote a7c080
+fish_color_redirection e69875
+fish_color_search_match 272e33 --background=a7c080
+fish_color_selection d3c6aa --background=4c3743
+fish_color_status e67e80
+fish_color_user a7c080
+fish_color_valid_path --underline
+fish_pager_color_completion d3c6aa
+fish_pager_color_description 9da9a0
+fish_pager_color_prefix a7c080 --bold --underline
+fish_pager_color_progress 859289 --background=374145
+fish_pager_color_selected_background --background=a7c080
+fish_pager_color_selected_completion 272e33
+fish_pager_color_selected_description 272e33
+fish_pager_color_selected_prefix 272e33
