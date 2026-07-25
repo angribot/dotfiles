@@ -13,6 +13,7 @@ alias ta "tmux attach"
 alias v "vim"
 alias rmf "rm -rf"
 alias rmr "rm -r"
+alias zs "zerostack"
 
 alias cdc "cd $HOME/.config"
 alias cdf "cd $HOME/.config/fish"
