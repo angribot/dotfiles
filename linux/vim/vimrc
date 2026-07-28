@@ -4,3 +4,4 @@ source $MYVIMDIR/keymaps.vim
 source $MYVIMDIR/plugins.vim
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") && &ft !~# 'commit' | execute "normal! g`\"" | endif
 au BufWritePre * :%s/\s\+$//e
+execute 'set viminfo+=n' . $XDG_DATA_HOME . '/vim/viminfo'
