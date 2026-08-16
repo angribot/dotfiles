@@ -12,11 +12,6 @@
     },
     "break",
     {
-      "format": "┌───────────────────────────── System Information ─────────────────────────────┐",
-      "type": "custom"
-    },
-    "break",
-    {
       "key": "     OS           ",
       "keyColor": "red",
       "type": "os"
@@ -88,12 +83,7 @@
     },
     "break",
     {
-      "format": "└──────────────────────────────────────────────────────────────────────────────┘",
-      "type": "custom"
-    },
-    "break",
-    {
-      "paddingLeft": 34,
+      "paddingLeft": 24,
       "symbol": "circle",
       "type": "colors"
     }
