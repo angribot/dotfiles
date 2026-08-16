@@ -4,6 +4,6 @@ set fish_greeting
 fish_vi_key_bindings
 fish_config theme choose everforest
 # prompt
-starship init fish | source
-tirith init --shell fish | source
-zoxide init --cmd cd fish | source
+type -q starship; and starship init fish | source
+type -q tirith; and tirith init --shell fish | source
+type -q zoxide; and zoxide init --cmd cd fish | source
