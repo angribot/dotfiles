@@ -1,38 +1,95 @@
-# npm "@earendil-works/pi-coding-agent"
-brew "ast-grep"
+# Taps
+
+tap "nubjs/tap"
+
+# Shells and terminal
+
+brew "fish"
+brew "starship"
+brew "tirith"
+brew "tmux"
+brew "zoxide"
+brew "zsh"
+
+# File navigation and text processing
+
 brew "bat"
 brew "diffutils"
-brew "fastfetch"
 brew "fd"
-brew "fish"
+brew "fzf"
+brew "jq"
+brew "lsd"
+brew "ripgrep"
+# brew "yazi"
+
+# System and network utilities
+
+brew "bind"
+brew "btop"
+brew "curl"
+brew "fastfetch"
+brew "stow"
+brew "unzip"
+brew "wget"
+
+# Documentation
+
+brew "tealdeer"
+
+# Editors
+
+brew "neovim"
+
+# Media
+
+brew "ffmpeg"
+
+# Git, Security and credentials
+
 brew "gh"
 brew "git"
 brew "gitleaks"
 brew "gnupg"
 brew "lazygit"
-brew "lsd"
+brew "pass"
+
+# Languages, runtimes, and package managers
+
+cargo "cargo-binstall"
 brew "node"
 brew "nubjs/tap/nub", trusted: true
-brew "pass"
 brew "python@3.14"
-brew "ripgrep"
-brew "rtk"
 brew "rust"
 brew "rustup"
-brew "starship"
-brew "tirith"
-brew "tmux"
 brew "typescript"
 brew "uv"
-brew "wget"
-brew "zoxide"
-brew "stow"
-brew "neovim"
-cargo "cargo-binstall"
+
+# Linters, formatters, and parsers
+
+brew "actionlint"
+brew "ast-grep"
+brew "oxfmt"
+brew "oxlint"
+brew "shellcheck"
+cargo "stylua"
 cargo "tree-sitter-cli"
+
+# AI coding tools
+
+brew "rtk"
 cargo "zerostack"
+npm "@earendil-works/pi-coding-agent"
+# npm "@openai/codex"
+
+# Fonts
+
+cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
+cask "font-lxgw-wenkai"
+cask "font-maple-mono-nf-cn"
+cask "font-smiley-sans"
+
+# Communication and gaming
+
 cask "forkgram"
 cask "steamcmd"
-# npm "@openai/codex"
-tap "nubjs/tap"
