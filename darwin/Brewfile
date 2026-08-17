@@ -79,7 +79,7 @@ npm "@earendil-works/pi-coding-agent"
 
 # Fonts
 
-cask "font-jetbrains-mono"
+# cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-lxgw-wenkai"
 cask "font-maple-mono-nf-cn"
