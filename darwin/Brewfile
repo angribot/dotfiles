@@ -32,10 +32,6 @@ brew "stow"
 brew "unzip"
 brew "wget"
 
-# Documentation
-
-brew "tealdeer"
-
 # Editors
 
 brew "neovim"
