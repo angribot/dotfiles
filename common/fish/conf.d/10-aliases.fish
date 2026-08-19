@@ -22,8 +22,5 @@ alias v "vim"
 alias cdc "cd $HOME/.config"
 alias cdd "cd $HOME/.config/dotfiles"
 alias cdf "cd $HOME/.config/fish"
-alias cdv "cd $HOME/.config/nvim"
-alias cdn "cd $HOME/.config/nix"
-alias cdp "cd $HOME/.pi/agent"
 
 alias z "zerostack"
