@@ -32,6 +32,10 @@ brew "stow"
 brew "unzip"
 brew "wget"
 
+# Docker & Containers
+
+brew "container"
+
 # Editors
 
 brew "neovim"
