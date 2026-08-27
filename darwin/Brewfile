@@ -81,6 +81,10 @@ cargo "zerostack"
 npm "@earendil-works/pi-coding-agent"
 # npm "@openai/codex"
 
+# Desktop utilities
+
+cask "crisp"
+
 # Fonts
 
 # cask "font-jetbrains-mono"
