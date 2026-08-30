@@ -56,6 +56,8 @@ brew "pass"
 # Languages, runtimes, and package managers
 
 # cargo "cargo-binstall"
+brew "zig"
+cargo "cargo-zigbuild"
 brew "node"
 brew "nubjs/tap/nub", trusted: true
 brew "python3"
