@@ -96,4 +96,3 @@ cask "font-smiley-sans"
 # Communication and gaming
 
 cask "forkgram"
-cask "steamcmd"
