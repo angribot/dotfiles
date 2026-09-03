@@ -6,7 +6,7 @@ tap "nubjs/tap"
 
 brew "fish"
 brew "starship"
-cargo "tirith"
+# cargo "tirith"
 brew "tmux"
 brew "zoxide"
 brew "zsh"
@@ -32,6 +32,9 @@ brew "stow"
 brew "unzip"
 brew "wget"
 
+brew "shadowsocks-rust"
+brew "simple-obfs"
+
 # Docker & Containers
 
 brew "container"
@@ -55,14 +58,14 @@ brew "pass"
 
 # Languages, runtimes, and package managers
 
-# cargo "cargo-binstall"
-brew "zig"
-cargo "cargo-zigbuild"
+brew "go"
 brew "node"
 brew "nubjs/tap/nub", trusted: true
 brew "python3"
 brew "typescript"
 brew "uv"
+brew "zig"
+cargo "cargo-zigbuild"
 
 # Linters, formatters, and parsers
 
@@ -95,4 +98,4 @@ cask "font-smiley-sans"
 
 # Communication and gaming
 
-cask "forkgram"
+# cask "forkgram"
