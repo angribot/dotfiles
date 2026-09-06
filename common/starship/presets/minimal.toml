@@ -51,6 +51,7 @@ CachyOS = "󰣇"
 Debian = ""
 Macos = ""
 Ubuntu = "󰕈"
+Windows = "󰍲"
 
 [palettes.everforest]
 accent = "#a7c080"
