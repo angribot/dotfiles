@@ -1,6 +1,6 @@
 # Taps
 
-tap "nubjs/tap"
+# tap "nubjs/tap"
 
 # Shells and terminal
 
@@ -60,10 +60,11 @@ brew "pass"
 
 brew "go"
 brew "node"
-brew "nubjs/tap/nub", trusted: true
+# brew "nubjs/tap/nub", trusted: true
 brew "python3"
 brew "typescript"
 brew "uv"
+brew "rustup"
 brew "zig"
 cargo "cargo-zigbuild"
 
@@ -93,7 +94,7 @@ cask "crisp"
 # cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-lxgw-wenkai"
-cask "font-maple-mono-nf-cn"
+# cask "font-maple-mono-nf-cn"
 cask "font-smiley-sans"
 
 # Communication and gaming
