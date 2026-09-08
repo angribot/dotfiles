@@ -1,5 +1,6 @@
 # name: Everforest Dark Hard
 # url: https://github.com/sainnhe/everforest
+# preferred_background: 272e33
 
 fish_color_normal d3c6aa
 fish_color_autosuggestion 7a8478
@@ -18,7 +19,7 @@ fish_color_host 83c092
 fish_color_host_remote dbbc7f
 fish_color_keyword e67e80
 fish_color_operator e69875
-fish_color_option d3c6aa
+fish_color_option 83c092
 fish_color_param d3c6aa
 fish_color_quote a7c080
 fish_color_redirection e69875
