@@ -1,7 +1,11 @@
 "$schema" = "https://starship.rs/config-schema.json"
 add_newline = false
-format = "$directory$os$git_branch$git_status$nodejs$rust$golang$php $character"
+format = "$directory$os$git_branch$git_status$docker_context$nix_shell$nodejs$rust$golang$c$lua$python$ruby$php $character"
 palette = "everforest"
+
+[c]
+format = "[$symbol($version)](grey1) "
+symbol = " "
 
 [character]
 error_symbol = "[❯](statusline3)"
@@ -14,6 +18,10 @@ read_only_style = "orange"
 style = "aqua"
 truncate_to_repo = true
 truncation_length = 4
+
+[docker_context]
+format = "[$symbol$context](grey1) "
+symbol = " "
 
 [git_branch]
 format = "[$symbol $branch](bold blue) "
@@ -31,12 +39,22 @@ staged = "[+$count ](bold purple)"
 untracked = "[?$count ](bold yellow)"
 
 [golang]
-format = "[$symbol $version](grey1) "
-symbol = ""
+format = "[$symbol($version)](grey1) "
+symbol = " "
+
+[lua]
+lua_binary = "luajit"
+version_format = "v${major}.${minor}"
+format = "[$symbol($version)](grey1) "
+symbol = " "
+
+[nix_shell]
+format = "[$symbol$state( \\($name\\))](grey1) "
+symbol = " "
 
 [nodejs]
-format = "[$symbol $version](grey1) "
-symbol = ""
+format = "[$symbol($version)](grey1) "
+symbol = " "
 
 [os]
 disabled = false
@@ -80,9 +98,17 @@ white = "#d3c6aa"
 yellow = "#dbbc7f"
 
 [php]
-format = "[$symbol $version](grey1) "
-symbol = ""
+format = "[$symbol($version)](grey1) "
+symbol = " "
+
+[python]
+format = "[$symbol($version)( \\($virtualenv\\))](grey1) "
+symbol = " "
+
+[ruby]
+format = "[$symbol($version)](grey1) "
+symbol = " "
 
 [rust]
-format = "[$symbol $version](grey1) "
-symbol = ""
+format = "[$symbol($version)](grey1) "
+symbol = "󱘗 "
