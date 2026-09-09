@@ -14,9 +14,9 @@ brew "zsh"
 # File navigation and text processing
 
 brew "bat"
-brew "diffutils"
+# brew "diffutils"
 brew "fd"
-brew "fzf"
+# brew "fzf"
 brew "jq"
 brew "lsd"
 brew "ripgrep"
@@ -76,7 +76,7 @@ brew "oxfmt"
 brew "oxlint"
 brew "shellcheck"
 cargo "stylua"
-cargo "tree-sitter-cli"
+# cargo "tree-sitter-cli"
 
 # AI coding tools
 
@@ -91,7 +91,6 @@ cask "crisp"
 
 # Fonts
 
-# cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-lxgw-wenkai"
 # cask "font-maple-mono-nf-cn"
@@ -99,4 +98,5 @@ cask "font-smiley-sans"
 
 # Communication and gaming
 
+cask "discord"
 # cask "forkgram"
