@@ -47,6 +47,10 @@ brew "neovim"
 
 brew "ffmpeg"
 
+# Documents and typesetting
+
+brew "typst"
+
 # Git, Security and credentials
 
 brew "gh"
@@ -99,4 +103,4 @@ cask "font-smiley-sans"
 # Communication and gaming
 
 cask "discord"
-# cask "forkgram"
+cask "spotify"
